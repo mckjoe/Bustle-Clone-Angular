@@ -1,4 +1,4 @@
 <h2>Bustle</h2>
 <ul>
-  <li><h5>{{firstArticle.title}}</h5><br><p>{{firstArticle.teaser}}</p><br><h5>{{firstArticle.author}}</h5><br><p>{{firstArticle.body}}</p></li>
+  <li *ngFor="let currentArticle of articles"><h5>{{currentArticle.title}}</h5><br><p>{{currentArticle.teaser}}</p><br><h5>{{currentArticle.author}}</h5></li>
 </ul>
