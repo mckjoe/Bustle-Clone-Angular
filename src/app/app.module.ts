@@ -4,15 +4,18 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { ArticleListComponent } from './article-list/article-list.component';
-
+import { NewArticleComponent } from './new-article/new-article.component';
+import { FormsModule }  from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ArticleListComponent
+    ArticleListComponent,
+    NewArticleComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

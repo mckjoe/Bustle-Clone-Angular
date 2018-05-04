@@ -20,6 +20,4 @@ export class ArticleListComponent {
       return "normal-views";
     }
   }
-  constructor() { }
-
 }

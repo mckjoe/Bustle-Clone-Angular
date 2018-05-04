@@ -14,6 +14,9 @@ export class AppComponent {
     new Article("Example 2", "this is another example", "Random Author", "This is another pretend article, hopefully it has been for of education", 23, "https://www.askideas.com/media/12/I-Just-Like-To-Smile-Funny-Random-Funny-Random.jpg"),
     new Article("Example 3", "This is a third example", "Joseph Author", "this is the body of this new third article that people can read", 9, "https://www.askideas.com/media/12/I-Just-Like-To-Smile-Funny-Random-Funny-Random.jpg")
   ];
+  addArticle(newArticle: Article) {
+    this.masterArticleList.push(newArticle);
+  }
   selectedArticle = null;
 
   viewArticle(clickedArticle) {
