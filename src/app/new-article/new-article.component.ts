@@ -7,8 +7,8 @@ import { Article } from '../models/article.model';
 })
 export class NewArticleComponent {
   @Output() sendArticle = new EventEmitter();
-  submitForm(title: string, teaser: string, author: string, body: string, views: string, imgURL: string) {
-  let newArticle: Article = new Article(title, teaser, author, body, parseInt(views), imgURL);
+  submitForm(title: string, teaser: string, author: string, body: string, imgURL: string) {
+  let newArticle: Article = new Article(title, teaser, author, body, imgURL);
   this.sendArticle.emit(newArticle);
   }
   constructor() { }
