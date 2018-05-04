@@ -11,4 +11,9 @@ export class AppComponent {
     new Article("Example 2", "this is another example", "Random Author", "This is another pretend article, hopefully it has been for of education"),
     new Article("Example 3", "This is a third example", "Joseph Author", "this is the body of this new third article that people can read")
   ];
+
+  viewArticle() {
+    alert("you asked to view this article");
+  }
+
 }

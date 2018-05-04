@@ -11,6 +11,11 @@ li {
   margin: 10px;
 }
 
+li:hover {
+  cursor: pointer;
+  border: 3px solid blue;
+}
+
 h5 {
   text-align: center;
 }
