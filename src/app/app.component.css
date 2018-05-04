@@ -2,17 +2,3 @@ h2 {
   text-align: center;
   font-style: italic;
 }
-
-
-/* #articleBody {
-  text-align: left;
-  width: 500px;
-} */
-
-.lots-of-views h6 {
-  color: green;
-}
-
-.normal-views h6 {
-  color: orange;
-}

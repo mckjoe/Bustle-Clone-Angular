@@ -13,12 +13,15 @@ export class ArticleListComponent {
     clickedArticle.done = setRemove;
   }
 
+
+
   viewButtonClicked(articleToView: Article) {
     this.clickSender.emit(articleToView);
+    articleToView.views +=1;
   }
 
   viewsColor(currentArticle){
-    if (currentArticle.views > 15) {
+    if (currentArticle.views > 5) {
       return "lots-of-views";
     } else {
       return "normal-views";

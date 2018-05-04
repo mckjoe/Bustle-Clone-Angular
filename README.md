@@ -47,7 +47,11 @@ user can add article to page | article title, article blurb, article author, and
 
 7. Please view the component-layout file to see the components I plan on using in this website.  That list may change as the project progresses, but I see those as the main pieces of functionality that I need to start with.
 
-
+# Finished/Not Finished
+### Finished
+I was able to get most of my original specs done today.  I was able to get the webpage to display a series of hard coded article examples, and when you click on the article it will display the full article for the user and it will let you click a button to return to the main page of articles.  Users who want to are able to add new articles to the page, they are just asked to include a title, a quick blerb to display on the main page, the authors name, and a url for an image to show up in the display.  Users can also choose to remove articles from the page that they don't want to see anymore.  The page will keep track of how many times a particular article has been clicked on, and that number will turn green if the article has been viewed more than 5 times.
+### Not Finished
+I still have a lot of styling to do.  I feel like the basic functionality is there as far as mimicking what people do on Bustle.com, but the site doesn't look too much like the original site.  Once of the first things I want to work on going forward is the display of the article that has been clicked to be viewed.  Currently it ends up being pushed to the side of all of the display boxes because the display boxes are just floated for placement.  I need to go back and do a lot of styling to at least make things readable.  I also want to change the input box for people creating a new article so that they have a bigger box for writing their article.   
 ## Known Bugs
 
 There are no known bugs at this time.
