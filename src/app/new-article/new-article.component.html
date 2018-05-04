@@ -9,7 +9,7 @@
     <input #newAuthor><br><br>
     <label>Enter article body:</label><br>
     <input #newBody><br><br>
-    <label>Please enter image url, here is an example:<em> https://www.askideas.com/media/12/I-Just-Like-To-Smile-Funny-Random-Funny-Random.jpg</em></label><br>
+    <label>Please enter image url, or feel free to use the url below and we will pick a random picture for you:<em> http://lorempixel.com/400/200</em></label><br>
     <input #newUrl><br><br>
     <button (click)="submitForm(newTitle.value, newTeaser.value, newAuthor.value, newBody.value, newUrl.value); newTitle.value=''; newTeaser.value=''; newAuthor.value=''; newBody.value=''; newUrl.value=''; ">Add</button>
   </div>
