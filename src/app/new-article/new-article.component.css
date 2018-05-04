@@ -1,0 +1,9 @@
+.new-article-form {
+  width:  300px;
+  height: 550px;
+  list-style: none;
+  border: 1px solid lightblue;
+  padding: 15px 10px;
+  margin: 10px;
+  float: left;
+}
