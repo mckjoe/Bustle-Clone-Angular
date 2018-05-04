@@ -39,6 +39,13 @@ user can add article to page | article title, article blurb, article author, and
 
 3. next I will add more articles to my root component that are then displayed for the user on the actual page.
 
+4.  I want users to be able to click on the display and for the full article to appear on the screen.  Eventually I would like to rout the user to a new page that displays the article with a few images, but for now I will start by triggering an alert to notify a user they have clicked to view an article and then I will change it so that when they click they are presented with the full article.
+
+5.  I also want users to be able to add their own article to the page.  For that I will create a button and a display that will allow a user to enter all their own information and that will add another article to my page.
+
+6.  I want users to be able to easily go back to the previous page, so I will also add a button that will hide the article they are viewing and take them back to the page which displays all of the available articles.
+
+
 
 
 ## Known Bugs
