@@ -1,3 +1,6 @@
 <ul>
-  <li [class]="viewsColor(currentArticle)" *ngFor="let currentArticle of childArticleList" (click)="viewButtonClicked(currentArticle)"><img src="{{currentArticle.imgURL}}"><h5>{{currentArticle.title}}</h5><br><p>{{currentArticle.teaser}}</p><br><h5>{{currentArticle.author}}</h5><h6><strong>Views:</strong> {{currentArticle.views}}</h6></li>
+  <li [class]="viewsColor(currentArticle)" *ngFor="let currentArticle of childArticleList | remove" (click)="viewButtonClicked(currentArticle)"><img src="{{currentArticle.imgURL}}"><h5>{{currentArticle.title}}</h5><br><p>{{currentArticle.teaser}}</p><br><h5>{{currentArticle.author}}</h5><h6><strong>Views:</strong> {{currentArticle.views}}</h6>
+  <input *ngIf="currentArticle.done === true" type="checkbox" checked (click)="toggleDone(currentArticle, false)"/>
+  <input *ngIf="currentArticle.done === false" type="checkbox" (click)="toggleDone(currentArticle, true)"/>
+  </li>
 </ul>

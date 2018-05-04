@@ -9,6 +9,10 @@ export class ArticleListComponent {
   @Input() childArticleList: Article[];
   @Output() clickSender = new EventEmitter();
 
+  toggleDone(clickedArticle: Article, setRemove: boolean) {
+    clickedArticle.done = setRemove;
+  }
+
   viewButtonClicked(articleToView: Article) {
     this.clickSender.emit(articleToView);
   }
