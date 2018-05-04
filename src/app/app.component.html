@@ -1,13 +1,13 @@
 <h2>Bustle</h2>
-<ul>
-  <li [class]="viewsColor(currentArticle)" *ngFor="let currentArticle of articles" (click)="viewArticle(currentArticle)"><img src="{{currentArticle.imgURL}}"><h5>{{currentArticle.title}}</h5><br><p>{{currentArticle.teaser}}</p><br><h5>{{currentArticle.author}}</h5><h6><strong>Views:</strong> {{currentArticle.views}}</h6></li>
-</ul>
+<div>
+  <ul>
+    <li [class]="viewsColor(currentArticle)" *ngFor="let currentArticle of articles" (click)="viewArticle(currentArticle)"><img src="{{currentArticle.imgURL}}"><h5>{{currentArticle.title}}</h5><br><p>{{currentArticle.teaser}}</p><br><h5>{{currentArticle.author}}</h5><h6><strong>Views:</strong> {{currentArticle.views}}</h6></li>
+  </ul>
+</div>
 
-
-
-
-
-  <h4>{{selectedArticle.title}}</h4>
-  <p id="articleBody">{{selectedArticle.body}}</p>
-  <h6>{{selectedArticle.author}}<h6>
+<div *ngIf="selectedArticle">
+  <h1>{{selectedArticle.title}}</h1>
+  <p>{{selectedArticle.body}}</p>
+  <p>{{selectedArticle.author}}</p>
   <button (click)="finishedViewing()">finished</button>
+</div>

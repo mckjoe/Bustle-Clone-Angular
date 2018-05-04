@@ -19,8 +19,12 @@ export class AppComponent {
 
   viewArticle(clickedArticle) {
     this.selectedArticle = clickedArticle;
-
   }
+
+  finishedViewing(){
+    this.selectedArticle = null;
+  }
+
 
   viewsColor(currentArticle){
     if (currentArticle.views > 15) {
