@@ -14,15 +14,13 @@ export class AppComponent {
     new Article("Example 2", "this is another example", "Random Author", "This is another pretend article, hopefully it has been for of education", "https://i.pinimg.com/736x/7a/f1/7f/7af17f1662cea39fa3254e30b08bf305--funny-scary-pictures-pictures-of.jpg"),
     new Article("Example 3", "This is a third example", "Joseph Author", "this is the body of this new third article that people can read", "https://i.pinimg.com/originals/84/b1/56/84b1566907247c580d75f7ac181af34d.jpg")
   ];
+  selectedArticle = null;
   addArticle(newArticle: Article) {
     this.masterArticleList.push(newArticle);
   }
-  selectedArticle = null;
-
   viewArticle(clickedArticle) {
     this.selectedArticle = clickedArticle;
   }
-
   finishedViewing(){
     this.selectedArticle = null;
   }

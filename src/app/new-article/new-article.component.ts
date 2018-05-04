@@ -12,7 +12,4 @@ export class NewArticleComponent {
   this.sendArticle.emit(newArticle);
   }
   constructor() { }
-
-
-
 }

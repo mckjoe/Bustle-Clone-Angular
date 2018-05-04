@@ -1,8 +1,6 @@
 <h2>Bustle</h2>
 <app-article-list [childArticleList]="masterArticleList" (clickSender)="viewArticle($event)"></app-article-list>
 <app-new-article (sendArticle)="addArticle($event)"></app-new-article>
-
-
 <div *ngIf="selectedArticle">
   <h1>{{selectedArticle.title}}</h1>
   <p>{{selectedArticle.body}}</p>

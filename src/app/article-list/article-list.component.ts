@@ -13,8 +13,6 @@ export class ArticleListComponent {
     clickedArticle.done = setRemove;
   }
 
-
-
   viewButtonClicked(articleToView: Article) {
     this.clickSender.emit(articleToView);
     articleToView.views +=1;

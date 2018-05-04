@@ -5,7 +5,6 @@ import { Article } from './models/article.model';
   name: "remove",
   pure: false
 })
-
 export class RemovePipe implements PipeTransform{
   transform(input: Article[]) {
     let output: Article[] = [];
