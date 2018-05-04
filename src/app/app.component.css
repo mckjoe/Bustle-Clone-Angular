@@ -23,3 +23,11 @@ h5 {
 p {
   text-align: center;
 }
+
+.lots-of-views h6 {
+  color: green;
+}
+
+.normal-views h6 {
+  color: orange;
+}

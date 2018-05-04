@@ -1,4 +1,4 @@
 <h2>Bustle</h2>
 <ul>
-  <li *ngFor="let currentArticle of articles" (click)="viewArticle()"><h5>{{currentArticle.title}}</h5><br><p>{{currentArticle.teaser}}</p><br><h5>{{currentArticle.author}}</h5><h5><strong>Views:</strong> {{currentArticle.views}}</h5></li>
+  <li [class]="viewsColor(currentArticle)" *ngFor="let currentArticle of articles" (click)="viewArticle()"><h5>{{currentArticle.title}}</h5><br><p>{{currentArticle.teaser}}</p><br><h5>{{currentArticle.author}}</h5><h6><strong>Views:</strong> {{currentArticle.views}}</h6></li>
 </ul>
