@@ -23,6 +23,33 @@ The BustleClone is a website people can visit and find interesting articles/blog
  * Follow instructions below under "Development Server" heading.
 
 
+## Plain English Specs
+
+behavior | input | output
+---------|-------|-------
+Create article objects | article name, article description, article author, article body | input used in displaying articles
+user can click on display and see article | click | thanks for clicking
+user can add article to page | article title, article blurb, article author, and article body| article added to display
+
+## My Process
+
+1.  Create one object in root component out of hard coded values of an article title, and article blurb or teaser, article author, and then an article.  
+
+2.  I would like to display an image with the article, so I will then try to make an image be part of each of the articles display, just like on the Bustle website.  I don't have any experience adding an image to an object that I can think of, so if this proves more difficult than I am picturing I will come back to this task as a later addition to the project when I have a little more practice with angular.
+
+3. next I will add more articles to my root component that are then displayed for the user on the actual page.
+
+
+
+## Known Bugs
+
+There are no known bugs at this time.
+
+## Support and contact details
+
+If you encounter any issues, or would like to reach the creater of this webpage, please email me at mckinney.a.joe@gmail.com
+
+
 
 ## Development server
 
@@ -47,3 +74,25 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+### License
+
+Copyright (c) <2018> <Joseph McKinney>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
