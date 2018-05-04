@@ -45,7 +45,7 @@ user can add article to page | article title, article blurb, article author, and
 
 6.  I want users to be able to easily go back to the previous page, so I will also add a button that will hide the article they are viewing and take them back to the page which displays all of the available articles.
 
-7. Please view the component-layout file to see the components I plan on using in this website.  That list may change as the project progresses, but I see those as the main pieces of fuctionality that I need to start with.
+7. Please view the component-layout file to see the components I plan on using in this website.  That list may change as the project progresses, but I see those as the main pieces of functionality that I need to start with.
 
 
 ## Known Bugs
